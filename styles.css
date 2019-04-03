@@ -1,3 +1,37 @@
 body {
     background: #55709b
 }
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color:yellow 
+}
+#port-nav ul {
+    list-style: none;
+}
+
+#port-nav>ul>li {
+    display: inline
+
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: white;
+    text-decoration: none;
+    transition: all .2 linear;
+}
+
+
+#port-nav>ul>li>a:hover {
+    color: #55709b;
+    background: white;
+    color: orange;
+    border-radius: 0px;
+    transition: all .2 linear;
+}
